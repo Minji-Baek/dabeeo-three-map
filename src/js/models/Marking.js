@@ -29,21 +29,7 @@ export default class Marking {
     });
 
     this.points = new THREE.Points(particleGeometry, particleMaterial);
-
-    // const material = new THREE.MeshBasicMaterial({ 
-    //   alphaMap: texture,
-    //   map: texture,
-    //   transparent: true,
-    //   depthWrite: false,
-    //  });
-    // const geometry = new THREE.PlaneGeometry(0.1, 0.1);
-    // const mesh = new THREE.Mesh(geometry, material);
-    // mesh.position.set(position.x, position.y, position.z);
-
-    // this.geometry = geometry;
-    // this.material = material;
-
-    // this.mesh = mesh;
+    
   }
 }
  
