@@ -37,7 +37,7 @@ export default function () {
   } // 좌클릭 => 이동, 우클릭 => 회전
 
 
-  const marksCount = 20;
+  const marksCount = THREE.MathUtils.randFloat(10, 30);
   const mapSize = {
     x : 8,
     y: 8
